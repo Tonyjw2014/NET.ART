@@ -1,0 +1,85 @@
+body {
+    font-family: 'Courier New', monospace;
+    background-color: #000; /* Black background */
+    color: #fff; /* White text */
+    margin: 0;
+    padding: 0;
+    background-image: url('image/cyber_background_bw.jpg'); /* Ensure your background is suitable for a B&W theme */
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+header, main {
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadeInUp 2s ease-out forwards;
+}
+
+@keyframes fadeInUp {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+header {
+    background-color: rgba(255, 255, 255, 0.1); /* Slightly transparent white */
+    margin-bottom: 20px;
+}
+
+h1, h2, h3 {
+    font-family: 'Courier New', monospace;
+    color: #fff;
+} 
+
+p {
+    color: #aaa; /* Lighter gray for text to not overpower */
+}
+
+#artworks article {
+    background-color: rgba(255, 255, 255, 0.1); /* Slightly transparent white for article backgrounds */
+    margin: 20px auto;
+    padding: 15px;
+    border: 2px dashed #fff; /* White dashed border */
+    border-radius: 8px;
+    box-shadow: 0 0 20px #aaa; /* Soft white glow */
+    width: 80%;
+    max-width: 600px;
+}
+
+#artworks img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    /* Removed grayscale filter to retain image colors */
+}
+
+a {
+    color: #fff;
+}
+
+@media (max-width: 768px) {
+    #artworks article {
+        width: 90%;
+    }
+}
+
+/* Ensure all fonts and elements adhere to the black and white theme, excluding images */
+body, button, input, select, textarea {
+    font-family: 'Pixel', 'Courier New', monospace;
+}
+
+/* Maintain pixelated image effect for a retro feel, if desired */
+img {
+    image-rendering: pixelated;
+    image-rendering: -moz-crisp-edges;
+    image-rendering: crisp-edges;
+    image-rendering: -o-crisp-edges;
+    image-rendering: pixelated;
+}
+
