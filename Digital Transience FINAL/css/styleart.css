@@ -1,0 +1,67 @@
+/* Universal Body Styles */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Main Layout */
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+
+/* Headings */
+h1 {
+    color: #333;
+    text-align: center;
+}
+
+/* Images */
+img {
+    display: block;
+    margin: 20px auto;
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    border-radius: 4px;
+}
+
+/* Text Content */
+p {
+    line-height: 1.6;
+    text-align: justify;
+}
+
+/* Buttons */
+button {
+    display: block;
+    width: max-content;
+    padding: 10px 20px;
+    margin: 20px auto;
+    background-color: #007BFF;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+a, a:visited {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
