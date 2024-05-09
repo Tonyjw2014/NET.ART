@@ -1,0 +1,63 @@
+/* General body styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    margin: 40px auto;
+    max-width: 800px;
+    padding: 20px;
+    line-height: 1.6;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    color: #4A90E2;
+}
+
+p {
+    margin: 20px 0;
+}
+
+/* Styling for navigation links */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: #4A90E2;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Button-like styles for links to make them more interactive */
+a {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 10px 0;
+    background-color: #4A90E2;
+    color: white;
+    border-radius: 5px;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+}
+
+a:hover {
+    background-color: #357ABD;
+}
+
+/* Additional responsive settings */
+@media (max-width: 600px) {
+    body {
+        margin: 20px;
+    }
+    a {
+        padding: 8px 16px;
+    }
+}
